@@ -1,0 +1,10 @@
+public class İslemler{
+      public int faktoriyel(int sayi)
+    {
+        if(sayi<2)
+            return sayi;
+        return faktoriyel(sayi-1)*sayi;
+
+    }
+}
+Console.WriteLine(instance.faktoriyel(5));
